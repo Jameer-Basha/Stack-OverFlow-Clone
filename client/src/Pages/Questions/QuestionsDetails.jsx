@@ -19,7 +19,7 @@ const QuestionsDetails = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const location = useLocation()
-  const url = "http://localhost:3000"
+  const url = "https://stack-over-flow-clone-7b2u.onrender.com"
   const [answer , setAnswer] = useState('')
 
   const handleShare = () =>{
